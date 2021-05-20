@@ -42,4 +42,16 @@
     color: white;
     border:none
   }
+  .red{
+    background-color: greenyellow;
+    color: red;
+    border:none
+  }
+  .red:hover{
+    background-color: red;
+    color: greenyellow;
+    border: 1px solid black;
+  }
+
+
   

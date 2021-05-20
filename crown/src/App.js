@@ -9,7 +9,7 @@ import { auth, createUserProfileDocument} from './firebase/firebase.utils';
 import {setCurrentUser} from './redux/users/users.actions'
 import { connect } from 'react-redux'
 class App extends React.Component {
-
+  
   unsubscribeFromAuth = null;
   componentDidMount() {  
     const {setCurrentUser} = this.props;
